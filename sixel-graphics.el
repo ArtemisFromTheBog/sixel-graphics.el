@@ -199,7 +199,7 @@ the oldest file immediately."
 
 (defun sixel-graphics--terminal-supports-sixel-p (terminal-kind)
   "Return non-nil when TERMINAL-KIND is a likely Sixel-capable terminal."
-  (memq terminal-kind '(windows-terminal mlterm xterm contour)))
+  (memq terminal-kind '(windows-terminal mlterm xterm contour foot)))
 
 (defun sixel-graphics--encoder-available-p ()
   "Return the configured encoder path, or nil."
